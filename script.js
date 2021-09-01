@@ -48,7 +48,7 @@ var html=""
     html+="<tr><td>Katana</td><td>Lutar/Briga</td><td>1d8+1d4+2</td><td>X</td><td>1</td><td>Toque</td><td>1</td><td>X</td></tr>"
     html+="<tr><td>Machado</td><td>Lutar/Briga</td><td>1d6+1d4+2</td><td>X</td><td>1</td><td>Toque</td><td>1</td><td>X</td></tr>"
     html+="<tr><td>Canivete</td><td>Lutar/Briga</td><td>2d4</td><td>X</td><td>1</td><td>Toque</td><td>1</td><td>X</td></tr>"
-    html+="<tr><td>Shuriken</td><td>Arremeçar</td><td>1d3+1d2</td><td>"+ shuriken +" <button onclick='atirarshuriken()'>Arremeçar</button><button onclick='racarregarshuriken'>Apanhar</button></td><td>2</td><td>14m</td><td>1</td><td>X</td></tr>"
+    html+="<tr><td>Shuriken</td><td>Arremeçar</td><td>1d3+1d2</td><td>"+ shuriken +" <button onclick='atirarshuriken()'>Arremessar</button><button onclick='racarregarshuriken'>Apanhar</button></td><td>2</td><td>14m</td><td>1</td><td>X</td></tr>"
     html+="<tr><td>Leque Cortante</td><td>Lutar/Briga</td><td>1d66+1d4</td><td>X</td><td>1</td><td>Toque</td><td>1</td><td>X</td></tr>"
 
     var htin = document.getElementById("tabeladanos")
@@ -73,7 +73,7 @@ html3(origem3)
 function html3(origem3){
 var html3=""
 
-    html3+=dinheiro +"<input type='text' placeholder='Dinheiro' id='dinheiro'><button onclick='dinero()'>Salver</button>"
+    html3+=dinheiro +"<input type='text' placeholder='Dinheiro' id='dinheiro'><button onclick='dinero()'>Salvar</button>"
 
     var htin3 = document.getElementById("dindin")
     htin3.innerHTML = html3
